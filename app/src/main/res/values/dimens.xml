@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="AllText">38sp</dimen>
+    <dimen name="ButtonDimen">82dp</dimen>
+    <dimen name="BetweenButton">15dp</dimen>
+    <dimen name="ButtonToTop">292dp</dimen>
+</resources>
