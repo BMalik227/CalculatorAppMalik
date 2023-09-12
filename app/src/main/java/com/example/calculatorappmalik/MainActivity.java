@@ -19,14 +19,34 @@ public class MainActivity extends AppCompatActivity {
     String textOutput = "";
 
     String addNum;
-
+/*
     public int search(String str){
         String search ="";
+        int ind = 0;
         //Create a method here to find the next symbol in an equation
-        while(search != ""){
-
+        if(str.indexOf("÷") >= 0){
+            if(ind > str.indexOf("÷")) {
+                ind = str.indexOf("÷");
+            }
         }
+        else if(str.indexOf("x") >= 0){
+            if(ind > str.indexOf("x")) {
+                ind = str.indexOf("x");
+            }
+        }
+        else if(str.indexOf("+") >= 0){
+            if(ind > str.indexOf("+")) {
+                ind = str.indexOf("+");
+            }
+        }
+        else if(str.indexOf("-") >= 0){
+            if(ind > str.indexOf("-")) {
+                ind = str.indexOf("-");
+            }
+        }
+        return ind()
     }
+    */
     public void buttonClicked(View v){
         if(v.getId() == R.id.button3){
             showEquation+="1";
@@ -131,6 +151,9 @@ public class MainActivity extends AppCompatActivity {
         if(v.getId() == R.id.button22){
             showEquation+="0";
             textOutput+= "0";
+        }
+        if(v.getId() == R.id.clear){
+            textOutput = "";
         }
         TextView output = findViewById(R.id.output);
         output.setText(textOutput);

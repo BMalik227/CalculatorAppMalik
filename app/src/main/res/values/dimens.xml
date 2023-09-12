@@ -4,5 +4,5 @@
     <dimen name="ButtonDimen">82dp</dimen>
     <dimen name="BetweenButton">15dp</dimen>
     <dimen name="ButtonToTop">292dp</dimen>
-    <dimen name="ButtonToSide">18dp</dimen>
+    <dimen name="ButtonToSide">10dp</dimen>
 </resources>
